@@ -1,8 +1,10 @@
 import './App.css'
-import MuiBreadcrumbs from './components/MuiBreadcrumbs';
+import MuiDrawer from './components/MuiDrawer';
+// import MuiBreadcrumbs from './components/MuiBreadcrumbs';
 // import MuiLink from './components/MuiLink';
 // import MuiImageList from './components/MuiImageList';
 import MuiNavbar from './components/MuiNavbar';
+import MuiSpeedDial from './components/MuiSpeedDial';
 // import MuiAccordion from './components/MuiAccordion';
 // import MuiCard from './components/MuiCard';
 // import MuiAutocomplete from './components/MuiAutocomplete';
@@ -34,7 +36,9 @@ function App() {
       {/*<MuiImageList />*/}
       <MuiNavbar />
       {/*<MuiLink />*/}
-      <MuiBreadcrumbs />
+      {/*<MuiBreadcrumbs />*/}
+      <MuiDrawer />
+      <MuiSpeedDial />
     </div>
   );
 }
