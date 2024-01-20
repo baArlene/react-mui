@@ -1,5 +1,9 @@
 import './App.css'
 import MuiBadge from './components/MuiBadge';
+import MuiChip from './components/MuiChip';
+import MuiList from './components/MuiList';
+import MuiTable from './components/MuiTable';
+import MuiTooltip from './components/MuiTooltip';
 // import MuiAvatar from './components/MuiAvatar';
 // import MuiBottomNavigation from './components/MuiBottomNavigation';
 // import MuiDrawer from './components/MuiDrawer';
@@ -45,6 +49,10 @@ function App() {
       {/*<MuiBottomNavigation />*/}
       {/*<MuiAvatar />*/}
       <MuiBadge />
+      <MuiList />
+      <MuiChip />
+      <MuiTooltip />
+      <MuiTable />
     </div>
   );
 }
