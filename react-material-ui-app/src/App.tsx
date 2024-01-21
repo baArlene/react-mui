@@ -1,11 +1,15 @@
 import './App.css'
+// import { LocalizationProvider } from '@mui/x-date-pickers';
+// import AdapterDatefns from '@mui/lab/AdapterDateFns'
 // import MuiAlert from './components/MuiAlert';
 import MuiBadge from './components/MuiBadge';
 // import MuiChip from './components/MuiChip';
 // import MuiDialog from './components/MuiDialog';
-import MuiList from './components/MuiList';
+// import MuiList from './components/MuiList';
+//import MuiLoadingButton from './components/MuiLoadingButton';
+// import MuiPicker from './components/MuiPicker';
 // import MuiProgress from './components/MuiProgress';
-import MuiSkeleton from './components/MuiSkeleton';
+// import MuiSkeleton from './components/MuiSkeleton';
 // import MuiSnackbar from './components/MuiSnackbar';
 // import MuiTable from './components/MuiTable';
 // import MuiTooltip from './components/MuiTooltip';
@@ -32,6 +36,7 @@ import MuiSkeleton from './components/MuiSkeleton';
 
 function App() {
   return (
+   
     <div className="App">
       {/*<MuiTypography />*/}
       {/*<MuiButton />*/}
@@ -54,7 +59,7 @@ function App() {
       {/*<MuiBottomNavigation />*/}
       {/*<MuiAvatar />*/}
       <MuiBadge />
-      <MuiList />
+      {/*<MuiList />*/}
       {/*<MuiChip />*/}
       {/*<MuiTooltip />*/}
       {/*<MuiTable />*/}
@@ -62,8 +67,11 @@ function App() {
       {/*<MuiSnackbar />*/}
       {/*<MuiDialog />*/}
       {/*<MuiProgress />*/}
-      <MuiSkeleton />
+      {/*<MuiSkeleton />*/}
+      {/*<MuiLoadingButton />*/}
+      {/*<MuiPicker />*/}
     </div>
+   
   );
 }
 
