@@ -3,6 +3,8 @@ import './App.css'
 // import AdapterDatefns from '@mui/lab/AdapterDateFns'
 // import MuiAlert from './components/MuiAlert';
 import MuiBadge from './components/MuiBadge';
+import MuiTabs from './components/MuiTabs';
+import MuiTimeline from './components/MuiTimeline';
 // import MuiChip from './components/MuiChip';
 // import MuiDialog from './components/MuiDialog';
 // import MuiList from './components/MuiList';
@@ -70,6 +72,8 @@ function App() {
       {/*<MuiSkeleton />*/}
       {/*<MuiLoadingButton />*/}
       {/*<MuiPicker />*/}
+      <MuiTabs />
+      <MuiTimeline />
     </div>
    
   );
